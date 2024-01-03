@@ -53,7 +53,4 @@ Use `self.stored_data.read()` to read the `stored_data` variable, where `self` r
 
 A contract defines the interaction between its storage and functions. The public functions allow modification or reading of the contract's storage.
 
-## Example Contract
-
-Here's a complete example of a contract, illustrating the concepts discussed:
 
