@@ -37,10 +37,6 @@ Modules in Starknet organize code, encompassing the contract's storage, events, 
 
 Consider the storage variables `token_supply` and `decimals` as part of the contract’s state. Functions in the contract interact with these variables, manipulating or interacting with data on the blockchain.
 
-### External Functions
-
-In Cairo, functions are public by default. However, an explicit interface declaration is required to expose certain functions externally. Define a set and get function in the interface before the contract module.
-
 #### Implementation
 
 Use the `#[abi(embed_v0)]` attribute to allow external access to functions. Implement the set and get functions as defined. Note that the set function incurs gas fees due to storage modifications, while the get function, used for reading storage values, incurs lower gas fees.
