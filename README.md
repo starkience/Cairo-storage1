@@ -1,4 +1,4 @@
-# Anatomy of s a imple storage contract in Cairo
+# Anatomy of a simple storage contract in Cairo
 
 This tutorial is compatible with:
 - **Scarb**: `2.4.0`
