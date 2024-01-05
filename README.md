@@ -7,7 +7,8 @@ This tutorial is compatible with:
 
 ## Installation
 
-To install the latest version of the scarb package manager, visit [Scarb Installation Page](<(https://docs.swmansion.com/scarb/docs.html)>).
+To install the latest version of the scarb package manager, visit [Scarb Installation Page](https://docs.swmansion.com/scarb/docs.html){target="_blank"}.
+
 
 ## Setting Up a Cairo Project
 
