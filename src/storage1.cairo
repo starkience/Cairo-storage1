@@ -17,10 +17,13 @@ mod SimpleStorage {
     #[abi(embed_v0)]
     impl SimpleStorage of super::ISimpleStorage<ContractState> {
         fn set(ref self: ContractState, number: u128) {
-            self.stored_data.write(x);
+            self.stored_data.write(number);
         }
         fn get(self: @ContractState) -> u128 {
             self.stored_data.read()
         }
     }
 }
+
+
+
