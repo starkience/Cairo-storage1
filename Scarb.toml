@@ -8,6 +8,8 @@ edition = "2023_10"
 [dependencies]
 starknet = ">=2.2.0"
 
+[[target.starknet-contract]]
+
 
 
 
